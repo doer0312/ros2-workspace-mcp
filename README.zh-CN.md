@@ -91,7 +91,7 @@ Claude Desktop JSON：
 
 ## 已实现工具
 
-Server 恰好提供以下七个工具：
+Server 提供以下七个工具：
 
 1. `scan_workspace`：发现软件包和基础元数据；
 2. `inspect_package`：检查单个包的清单、构建文件、可执行项和文件布局；
