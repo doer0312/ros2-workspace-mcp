@@ -1,0 +1,8 @@
+<robot name="demo_robot">
+  <link name="base_link"/>
+  <link name="tool_link"/>
+  <joint name="tool_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="tool_link"/>
+  </joint>
+</robot>

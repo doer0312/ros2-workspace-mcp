@@ -1,0 +1,10 @@
+[mcp_servers.ros2-workspace-inspector]
+command = "uv"
+args = [
+  "--directory",
+  "/absolute/path/to/ros2-workspace-mcp",
+  "run",
+  "ros2-workspace-mcp",
+  "--root",
+  "/absolute/path/to/your/ros2_ws",
+]
