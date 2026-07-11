@@ -20,6 +20,16 @@ The project inspects files only. It does not control robots, run ROS nodes, buil
 execute launch or Xacro files, execute `setup.py`, publish topics, call services or actions, or
 modify user files. All access stays inside the configured root sandbox. Only stdio is supported.
 
+## Tools
+
+- `scan_workspace` — Discover ROS 2 packages, workspace layout, build types, and basic manifest metadata.
+- `inspect_package` — Inspect a package's manifest, build configuration, executables, launch files, interfaces, robot descriptions, and tests.
+- `analyze_dependencies` — Analyze package dependencies, internal dependency edges, topological order, and dependency cycles.
+- `inspect_interfaces` — Parse and inspect ROS 2 Msg, Srv, and Action interface definitions.
+- `analyze_launch_file` — Statically analyze a Python, XML, or YAML ROS 2 launch file without executing it.
+- `inspect_robot_description` — Inspect URDF structure and statically summarize Xacro files without expanding or executing them.
+- `diagnose_workspace` — Run a consolidated, bounded diagnosis of the configured ROS 2 workspace.
+
 ## Requirements and installation
 
 - Python 3.10 or newer
